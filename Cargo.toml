@@ -1,0 +1,24 @@
+[package]
+name = "rust-tailcall"
+version = "0.1.0"
+edition = "2024"
+authors = ["Codefonsi <info@codefonsi.com>"]
+license = "MPL-2.0"
+description = "TailCall, The crate is a rust implementation of The Art of Simplicity_Venkat Subramaniam."
+repository = "https://github.com/codefonsi/rust-tailcall"
+homepage = "https://github.com/codefonsi/rust-tailcall"
+documentation = "https://docs.rs/rust-tailcall"
+keywords = ["TailCall", "stack-overflow", "type-safe", "functional", "immutable"]
+readme = "./README.md"
+include = ["src/**/*", "Cargo.toml", "../../README.md", "LICENSE"]
+
+[dependencies]
+resolver = "3" # or "3"
+
+[dev-dependencies]
+num-bigint = "0.4"
+num-traits = "0.2"
+
+
+[features]
+default = []
